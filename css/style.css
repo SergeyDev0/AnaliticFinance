@@ -48,7 +48,6 @@ button, input{
     margin-bottom: 6%;
 }
 .wrapper__form-input::before{
-    content: 'Сумма';
     display: block;
     position: absolute;
     color: black;
@@ -57,6 +56,15 @@ button, input{
     font-size: 14px;
     top: -7px;
     left: 20px;
+}
+.wrapper__form-input:nth-child(1)::before{
+    content: 'Цена покупки';
+}
+.wrapper__form-input:nth-child(2)::before{
+    content: 'Цена продажи';
+}
+.wrapper__form-input:nth-child(3)::before{
+    content: 'Количество UDST';
 }
 .form-button{
     text-align: center;
