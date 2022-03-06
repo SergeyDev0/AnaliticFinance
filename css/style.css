@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+button, input{
+    border: none;
+    outline: none;
+}
+.title-text{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 2%;
+}
+.section__form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+}
+.form-input, .form-button{
+    width: 100%;
+}
+.wrapper__form-input, .wrapper__input-button{
+    width: 80%;
+    margin: 0 auto;
+}
+.form-input{
+    background-color:white;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 16px 0;
+    padding-left: 20px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-family: sans-serif;
+}
+.wrapper__form-input{
+    position: relative;
+    margin-bottom: 6%;
+}
+.wrapper__form-input::before{
+    content: 'Сумма';
+    display: block;
+    position: absolute;
+    color: black;
+    background-color: white;
+    padding: 0 5px;
+    font-size: 14px;
+    top: -7px;
+    left: 20px;
+}
+.form-button{
+    text-align: center;
+    padding: 15px 0px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+#str{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
